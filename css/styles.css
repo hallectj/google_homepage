@@ -1,0 +1,149 @@
+/* Universal styles */
+html, body{
+	height: 100%;
+}
+
+body { 
+    font: 87.5 arial, "Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif;
+    background-color: #fff; 
+    color: #000000;   
+} 
+
+li{
+	list-style: none;
+}
+
+input{
+	border: 1px solid #4D90FE;
+}
+
+#wrapper{
+   min-height:100%;
+   position:relative;
+}
+
+/* header and nav styles */
+
+header{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+nav{
+	float: right;
+	width: 300px;
+}
+
+nav ul li{
+   display: block;
+   float: left;
+   margin: 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+nav ul li:first-child, nav ul li:nth-child(2){
+	margin-top:15px;
+	display: inine-block;
+}
+
+nav ul li #app_icon{
+	height: 30px;
+	width: 30px;
+}
+
+/*Main styles*/
+
+#home-main{
+	position: relative;
+}
+
+#google-main-section{
+	margin: 150px auto 0px;
+	display: block;
+	width: 600px;
+}
+
+#main_logo{
+	height: 92px;
+	width: 272px;
+	display: block;
+	margin: 0 auto;
+}
+
+#google-main-section div:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 590px;
+    height: 40px;
+}
+
+#google-main-section div:nth-child(2) input[type="text"]{
+	width: 590px;
+	height: 40px;
+	border: 1px solid #DAD3D3;
+}
+
+#google-main-section div:nth-child(3){
+	width: 300px;
+	margin: 0 auto;
+}
+
+#google-main-section div:nth-child(3) input[type="submit"]{
+	padding: 10px;
+	font-family: arial,sans-serif;
+	font-weight: bold;
+}
+
+#google-main-section div:nth-child(3) input{
+	border: 1px solid #4D90FE;
+	padding: 0px 16px;
+	margin: 11px 4px;
+	color: #757575;
+	background-color: #f2f2f2;
+}
+
+
+/*Footer Styles*/
+
+footer{
+   position:fixed;
+   bottom:0;
+   height: 40px;
+   clear: both;
+   overflow: hidden;
+   background-color: #F2F2F2;
+   width: 100%;
+   border-top: 1px solid #DAD3D3;
+}
+
+footer ul li{
+	float: left;
+	list-style: none;
+	margin: 10px;
+}
+
+footer ul li a{
+	text-decoration: none;
+	font-family: arial,sans-serif;
+	color: #666;
+	font-size: 14px;
+}
+
+footer #left_footer_links{
+	float: left;
+	margin-left: 10px;
+}
+
+footer #right_footer_links{
+	float: right;
+	margin-right: 10px;
+}
+
